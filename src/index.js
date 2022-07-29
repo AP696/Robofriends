@@ -6,5 +6,5 @@ import registerServiceWorker from './registerServiceWorker';
 import 'tachyons'; 
 
 
-ReactDOM.createRoot(docment.getElementById('root')).render(<App/>);
+ReactDOM.render(<App />, document.getElementById("root"));
 // registerServiceWorker();
